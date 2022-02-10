@@ -117,7 +117,7 @@ SSH into the control node and follow the steps below:
 1. Which file is the playbook? Where do you copy it?
 - filebeat-playbook.yml and then copied to /etc/ansible/roles directory
 2. Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-- You woudl have to update filebeat-config.yml. You can specify which machine to install by updating the host files with the ip addresses of web servers and elk server and selecting which group to run on in th ansible.
+- You would have to update filebeat-config.yml. You can specify which machine to install by updating the host files with the ip addresses of web servers and elk server and selecting which group to run on in th ansible.
 4. Which URL do you navigate to in order to check that the ELK server is running?
 - http://[your.ELK-VM.External.IP]:5601/app/kibana
 
